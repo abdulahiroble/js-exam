@@ -80,21 +80,125 @@
 
 // P14
 
-const input = document.querySelector('input');
-const log = document.getElementsByClassName("getColor");
+// const input = document.querySelector('input');
+// const log = document.getElementsByClassName("getColor");
 
-input.addEventListener('input', updateValue);
+// input.addEventListener('input', updateValue);
 
-function updateValue(e) {
+// function updateValue(e) {
 
-    document.getElementById("button").addEventListener("click", function () {
-        document.body.style.background = log.textContent = e.target.value;
-    });
+// document.getElementById("button").addEventListener("click", function () {
+//     document.body.style.background = log.textContent = e.target.value;
+// });
 
-}
+// }
 
-function myFunction() {
-    updateValue()
-}
+// function myFunction() {
+//     updateValue()
+// }
 
-myFunction()
+// myFunction()
+
+// P15
+// let button = document.getElementById("button").addEventListener("click", function () {
+//     document.getElementById("h1").style.color = "red";
+// });
+
+// P16
+// let button = document.getElementById("button").addEventListener("click", function () {
+//     document.getElementById("red").style.color = "red";
+// });
+
+// document.onkeydown = function (evt) {
+//     evt = evt || window.event;
+//     if (evt.key == "Escape") {
+//         document.getElementById("blue").style.color = "blue";
+//     }
+// };
+
+// P18
+
+// const fruits = ["apple", "orange", "cherry", "strawberry", 1]
+
+// function myFunc() {
+
+//     fruits.map((test) => console.log(test))
+
+// }
+
+// myFunc()
+
+// P19
+
+// const fruits = ["apple", "orange", "cherry", "strawberry"]
+
+// let dropdown = document.getElementById('ddFruit');
+// dropdown.length = 0;
+
+// let defaultOption = document.createElement('option');
+// defaultOption.text = 'Choose fruit';
+
+// dropdown.add(defaultOption);
+// dropdown.selectedIndex = 0;
+
+// for (let i = 0; i < fruits.length; i++) {
+//     option = document.createElement('option');
+//     option.text = fruits[i];
+//     option.value = fruits[i];
+//     dropdown.add(option);
+// }
+
+
+// P20
+
+// const fruits = ["apple", "orange", "cherry", "strawberry"]
+
+// let dropdown = document.getElementById('ddFruit');
+// dropdown.length = 0;
+
+// let defaultOption = document.createElement('option');
+// defaultOption.text = 'Choose fruit';
+
+// dropdown.add(defaultOption);
+// dropdown.selectedIndex = 0;
+
+// for (let i = 0; i < fruits.length; i++) {
+//     option = document.createElement('option');
+//     option.text = fruits[i];
+//     option.value = fruits[i];
+//     dropdown.add(option)
+
+//     dropdown.addEventListener("click", function (e) {
+
+//         console.log(e.target.value)
+//     });
+// }
+
+// P21
+
+// const fruits = ["apple", "orange", "cherry", "strawberry"]
+
+// let dropdown = document.getElementById('ddFruit');
+// dropdown.length = 0;
+
+// let defaultOption = document.createElement('option');
+// defaultOption.text = 'Choose fruit';
+
+// dropdown.add(defaultOption);
+// dropdown.selectedIndex = 0;
+
+// for (let i = 0; i < fruits.length; i++) {
+//     option = document.createElement('option');
+//     option.text = fruits[i];
+//     option.value = fruits[i];
+//     dropdown.add(option)
+
+//     dropdown.addEventListener("click", function (e) {
+
+//         console.log(e.target.value)
+//     });
+// }
+
+// document.getElementById("clear").addEventListener("click", function () {
+//     console.clear()
+// })
